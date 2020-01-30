@@ -1,0 +1,58 @@
+
+body{
+    margin: 0px;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0px 4px 2px #333;
+}
+#header>h1{
+    width: 1024px;
+    margin: 0px auto;
+    color: white;
+    padding: 12px;
+}
+
+#container{
+    width: 1024px;
+    background-color: white;
+    height: 500px;
+    border: 1px solid #333;
+    margin-top: 20px;
+    margin-left: 150px;
+    overflow: scroll;
+}
+#controls{
+    width: 1024px;
+    background-color: white;
+    border: 1px solid #333;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding-bottom: 0%;
+}
+textarea{
+    resize: none;
+    width: 920px;
+    /* padding: 10px; */
+}
+#button{
+    font-size: 34px;
+    position: absolute;
+}
+#enter{
+    margin-left: 150px;
+}
+.username{
+    /* float: right; */
+    color: blue;
+    font-weight: bold;
+}
+.bot{
+    color: green;
+    font-weight: bold;
+}
